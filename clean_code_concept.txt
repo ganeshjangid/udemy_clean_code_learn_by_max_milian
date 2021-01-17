@@ -1,0 +1,48 @@
+
+1.
+let x=4; //Bad Way
+
+let numberOfChildren=4; //Good Way
+
+2.
+// Bad veriable
+let Username='ganesh';
+let user_name='ganesh';
+
+//Good Way
+const userName='ganesh';
+
+3.
+//Use good camel case Function user_name
+function doSomething(){}
+
+4.
+//constructor function
+function MyOject(){}
+
+5.
+// Global constant start with Capital letter
+const numberOfChildren=4 // Bad Way
+
+const NUMBER_OF_CHILDERN= 4; // good Way
+
+
+6.
+// Use "===" and "!==" only for compare
+const value=(i === 10) ? "It is ten" : "No ten value"
+
+7.
+// Best way to write if Statement
+if(Hello){
+    testSome();
+}
+
+8.
+// Line length is space 8 spaces
+doSomething(argument1, argument2, argument3, argument4,
+        argument5);
+
+9.
+//Sting should be a single quote
+
+const description = "this is a description";
